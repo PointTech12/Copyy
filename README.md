@@ -6,8 +6,6 @@ Copyy/
 ├── Dataset_PDFs/           # Place your PDF books here
 ├── Processed_Data/         # Output directory for processed data and analysis
 ├── main.py                 # Main processing script (enhanced)
-├── add_book.py            # Utility to add new books with metadata
-├── analyze_copyright.py   # Copyright infringement analysis
 ├── book_metadata.json     # Book metadata configuration
 ├── requirements.txt       # Python dependencies
 └── README.md             # This file
@@ -21,16 +19,6 @@ Copyy/
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
-
-### 2. Add Books to Dataset - probly will break you pc
-
-Use the interactive book manager:
-
-```bash
-python add_book.py
-```
-
-Or manually place PDF files in the `Dataset_PDFs/` folder and update `book_metadata.json`.
 
 ### 3. Process All Books
 
