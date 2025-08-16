@@ -1,0 +1,33 @@
+{
+  "books": {
+    "scf(1).pdf": {
+      "title": "Science Fiction Novel",
+      "author": "Unknown Author",
+      "genre": "Science Fiction",
+      "publication_year": 2023,
+      "language": "English",
+      "source": "AI Generated",
+      "notes": "Sample science fiction text for analysis"
+    }
+  },
+  "genre_mappings": {
+    "scf": "Science Fiction",
+    "mystery": "Mystery",
+    "romance": "Romance", 
+    "fantasy": "Fantasy",
+    "thriller": "Thriller",
+    "horror": "Horror",
+    "historical": "Historical Fiction",
+    "literary": "Literary Fiction",
+    "nonfiction": "Non-Fiction",
+    "biography": "Biography",
+    "memoir": "Memoir"
+  },
+  "processing_settings": {
+    "sentences_per_paragraph": 5,
+    "min_paragraph_length": 50,
+    "max_paragraph_length": 2000,
+    "enable_readability_scores": true,
+    "enable_advanced_features": true
+  }
+} 
