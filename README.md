@@ -41,13 +41,9 @@ Copyy/
 
 5. **Install additional system dependencies** (for OCR functionality):
    ```bash
-   # Ubuntu/Debian
    sudo apt-get install tesseract-ocr
    sudo apt-get install poppler-utils
-   
-   # Arch Linux
-   sudo pacman -S tesseract
-   sudo pacman -S poppler
+
    ```
 
 ## 📖 Usage
@@ -66,19 +62,6 @@ Copyy/
    python main_2.py
    ```
 
-### Copyright Analysis
-
-Run the copyright analysis engine:
-```bash
-python Idk/analyze_copyright.py
-```
-
-### Adding New Books - if you want to break your pc 
-
-Use the book addition utility:
-```bash
-python Idk/add_book.py
-```
 
 ## 🔧 Configuration
 
@@ -91,9 +74,6 @@ dataset_path = "/path/to/your/pdf/files"
 output_path = "/path/to/output/directory"
 ```
 
-
-For questions and support, please open an issue on the GitHub repository.
-
 ---
 
-**Note**: This system is designed to assist in identifying potential copyright issues but should not replace professional legal analysis. 
+
